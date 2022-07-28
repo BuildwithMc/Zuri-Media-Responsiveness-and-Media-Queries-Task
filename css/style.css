@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    background: hsl(0, 100%, 74%) url('/images/bg-intro-desktop.png');
+    background: hsl(0, 100%, 74%) url('../images/bg-intro-desktop.png');
     min-height: 100vh;
     display: grid;
     place-items: center;
@@ -163,4 +163,42 @@ form p {
 
 .visible-text {
     visibility: visible;
+}
+
+/* responsive break sections */
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        text-align: center;
+    }
+
+    .warning-text {
+        text-align: right;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .container {
+        padding: 5rem 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        width: 100%;
+        padding: 5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    main {
+        background: hsl(0, 100%, 74%) url('./images/bg-intro-mobile.png');
+    }
 }
