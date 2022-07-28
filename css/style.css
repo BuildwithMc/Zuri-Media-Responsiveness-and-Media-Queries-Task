@@ -150,14 +150,14 @@ form p {
    background-position: calc(100% - .8rem);
 }
 
-.email-required {
+.email-warning {
     outline: .08rem solid hsl(0, 100%, 74%);
     background: url('/images/icon-error.svg');
     background-repeat: no-repeat;
     background-position: calc(100% - .8rem);
 }
 
-.email-required::placeholder {
+.email-warning::placeholder {
     color: hsl(0, 100%, 74%);
 }
 
