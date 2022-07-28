@@ -130,3 +130,15 @@ form p {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
 }
+
+.warning-text {
+    color: hsl(0, 100%, 74%);
+    font-style: italic;
+    width: 100%;
+    display: block;
+    text-align: right;
+    margin-top: .4rem;
+    font-size: .6rem;
+    font-weight: 700;
+    /* visibility: hidden; */
+}
