@@ -105,3 +105,28 @@ form p {
     font-size: .7rem;
 }
 
+/* submit btn section */
+
+.submit-btn {
+    outline: none;
+    border: none;
+    background: hsl(154, 59%, 51%);
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 6.5px 1px hsl(154, 59%, 45%);
+    font-weight: 600;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: .7;
+}
+
+.terms-conditions {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
