@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    background: hsl(0, 100%, 74%) url('./images/bg-intro-desktop.png');
+    background: hsl(0, 100%, 74%) url('/images/bg-intro-desktop.png');
     min-height: 100vh;
     display: grid;
     place-items: center;
@@ -130,7 +130,7 @@ form p {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
 }
-
+/* style for form vertification */
 .warning-text {
     color: hsl(0, 100%, 74%);
     font-style: italic;
@@ -140,5 +140,27 @@ form p {
     margin-top: .4rem;
     font-size: .6rem;
     font-weight: 700;
-    /* visibility: hidden; */
+    visibility: hidden;
+}
+
+.required {
+   outline: .08rem solid hsl(0, 100%, 74%);
+   background: url('/images/icon-error.svg');
+   background-repeat: no-repeat;
+   background-position: calc(100% - .8rem);
+}
+
+.email-required {
+    outline: .08rem solid hsl(0, 100%, 74%);
+    background: url('/images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - .8rem);
+}
+
+.email-required::placeholder {
+    color: hsl(0, 100%, 74%);
+}
+
+.visible-text {
+    visibility: visible;
 }
